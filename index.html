@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Cinzel:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #0f172a;
+      background-color: #020617; /* Changed to slate-950 for global background */
       color: #f8fafc;
       font-family: 'Inter', sans-serif;
     }
@@ -23,6 +22,21 @@
     }
     .animate-float {
       animation: float 3s ease-in-out infinite;
+    }
+    /* Custom scrollbar for description area */
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #2d1142; /* Track color */
+      border-radius: 2px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #5d3380; /* Thumb color */
+      border-radius: 2px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #7d49a6; /* Thumb color on hover */
     }
   </style>
 <script type="importmap">
